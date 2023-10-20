@@ -81,7 +81,7 @@ const aTeam = [
   {
     name: "ScreenShooot",
     role: "Architect",
-    uuid: "9006efa2-4352-4610-a750-caca9515942d",
+    uuid: "0e5d7c22-cfed-407c-9b1d-e4125311f195",
     descr: "",
   },
 ];
@@ -109,9 +109,7 @@ const displayData = async () => {
     let src = await fetchData(jedenClen.uuid);
 
     let imgSrc = getElement("." + jedenClen.name);
-    console.log(imgSrc[2]);
     let jmeno = getElement("." + jedenClen.name + "-name");
-    console.log(jmeno)
     let descr = getElement("." + jedenClen.name + "-descr");
 
     if (imgSrc && jmeno /* && descr */) {
