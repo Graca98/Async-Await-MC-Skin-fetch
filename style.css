@@ -1,0 +1,36 @@
+.aTeam-style {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* gap: 10px; */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+
+  /* border: 1px solid black; */
+
+  width: 220px;
+  height: auto;
+}
+.card:hover {
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.card > img {
+  max-width: 120px;
+  max-height: 270px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.card > h3, p {
+  text-align: center;
+}
+
+.card > p {
+  margin: 0;
+  padding: 9px 5px;
+}
